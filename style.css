@@ -60,6 +60,7 @@ figure
     display: flex;
     gap: 1rem;
     color: hsl(228, 12%, 48%);
+    font-size: 0.7rem;
 }
 #new_price
 {
@@ -70,7 +71,7 @@ figure
 }
 button
 {
-    height: 3rem;
+    padding: 0.8rem;
     font-size: 0.875rem;
     background-color: hsl(158, 36%, 37%);
     border-radius: 0.6rem;
@@ -104,9 +105,9 @@ button:hover
     main
     {
         display: grid;
-        grid-template-rows: 70%;
+        grid-template-rows: 100%;
         grid-template-columns: 50% 50%;
-        border-radius: 0.5rem; 
+        border-radius: 0.5rem;
         
     }
     img {
